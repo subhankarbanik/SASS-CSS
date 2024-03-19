@@ -1,0 +1,51 @@
+#container > div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+#container > div:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+#container > div:nth-child(3) {
+  color: red;
+}
+
+button.primary {
+  border: #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button.secondary {
+  border: #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.warning-card, .info-card {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-card {
+  background-color: #eaf6ff;
+  border: 1px solid #3498db;
+}
+
+.warning-card {
+  background-color: #fdf2e9;
+  border: 1px solid #e74c3c;
+}/*# sourceMappingURL=styles.css.map */

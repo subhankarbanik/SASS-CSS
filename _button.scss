@@ -1,0 +1,16 @@
+@mixin func($a,$b,$c,$d,$e){
+    border:$a;
+    padding-top:$b;
+    padding-bottom: $b;
+    padding-left: $c;
+    padding-right: $c;
+    background-color: $d;
+    color: $e;
+
+}
+button.primary{
+    @include func(#ccc,10px ,20px ,#f0f0f0,#333 )
+}
+button.secondary{
+    @include func(#ccc,10px,20px,#007bff ,#fff)
+}
